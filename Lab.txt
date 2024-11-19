@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 07</title>
+    <link rel="stylesheet" href="design.css">
+  </head>
+  <body>
+    <button class="transition-button">Hover Button</button>
+    <div class="transition-div">Transition Div</div>
+    <p class="transition-text">Transition Text</p>
+    <img src="images.jpg" alt="Image" class="transition-image">
+    <div class="scale-div">Scale Div</div>
+    <img src="images.jpg" class="scale-image">
+    <br>
+    <button class="translate-button">Translate Button</button>
+    <div class="translate-div">Translate Div</div>
+    <h1 class="skew-heading">Skew Heading</h1>
+    <p class="skew-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore illo corrupti illum ducimus voluptates deserunt earum perferendis, iure doloribus, dolorum quae, enim asperiores explicabo eligendi. Aperiam qui quisquam veniam.
+    Tenetur vel commodi nostrum vitae velit quasi ipsum exercitationem eum! Eius in cum voluptatibus, fugiat dignissimos mollitia porro repellendus aut pariatur libero beatae ratione, corporis, enim eligendi deserunt inventore eos!
+    Aut quia reprehenderit sunt, recusandae dicta ullam assumenda delectus earum in distinctio velit repudiandae totam vel atque est natus dolorem voluptas, voluptate obcaecati tempore nesciunt adipisci corrupti laudantium? Eveniet, similique?
+    Repudiandae iste fuga ut repellendus sunt exercitationem laborum autem possimus dolorum quibusdam voluptate, ullam non similique quaerat hic doloribus aliquid tempora vero eligendi recusandae, provident laboriosam corporis numquam facilis! Ut.
+    Suscipit inventore adipisci ratione qui accusamus dolor nam ab! Cum quis, error sequi tempore unde voluptatibus doloribus adipisci id dolorem minima sapiente, nesciunt ea nihil, minus ipsum odio reprehenderit incidunt!
+    Tenetur sed architecto atque! Nam sapiente, explicabo laborum eveniet maiores magnam voluptatem temporibus. Quia dolorem quos enim corporis, nihil velit. Ut reiciendis sint explicabo temporibus quam modi consequatur a et.
+    Quasi porro perferendis corrupti excepturi facere eum quo illo ea nesciunt, qui, repellendus cupiditate omnis obcaecati. Cumque, nihil! Ipsum perspiciatis beatae provident quod, facere nemo facilis dolor a repellendus temporibus!
+    Expedita molestiae fugiat dignissimos nostrum deserunt fugit, necessitatibus aliquid ullam officia voluptatibus quasi incidunt cupiditate pariatur. Non unde neque voluptatem minima, provident consequuntur sed ipsum perspiciatis earum repudiandae quia tempora?
+    Nesciunt, officiis? Voluptatibus voluptas voluptate accusamus commodi excepturi aperiam et sit. Pariatur animi, voluptates non fugiat voluptas aut reprehenderit sequi nihil nisi? Tenetur saepe dolore vero enim nobis rem explicabo?
+    Itaque eum recusandae adipisci impedit ipsum, ut totam cum laboriosam quas, deserunt molestias asperiores! Illo illum et cumque molestiae, eveniet soluta veniam magni eos enim molestias neque impedit mollitia officiis.
+    Non nulla eaque dolorem ut facere laudantium placeat veritatis, necessitatibus, minus nobis repudiandae libero provident hic, iusto possimus sint corrupti. Dolorum totam eaque itaque voluptatum repellendus officia rem doloribus harum.
+    Earum sit est voluptatibus placeat eligendi voluptatum tempora rem recusandae nostrum assumenda beatae corrupti, et ad esse ab veritatis perspiciatis nesciunt voluptas alias molestias expedita suscipit a! Ut, fugiat nam!
+    Nemo perferendis vero est nulla cupiditate non error fuga voluptatem! Saepe, quas culpa necessitatibus molestiae nam sint ipsum repellendus earum et aliquid repudiandae aut sunt vel atque rem beatae sapiente.
+    Fugit iusto velit ea quae placeat similique eligendi sed nulla consequuntur officia ex amet dolores optio, atque cum ducimus voluptate nemo neque eaque voluptas. Atque dolorem sit modi voluptate similique?
+    Reprehenderit itaque iusto eos eligendi rerum accusamus magni, labore officiis. Repellat quia aut quo libero sequi, minus iste ex ea, voluptate tempore laboriosam corporis nihil? Nisi illum deserunt quis animi!
+    Neque esse iure, corrupti vitae voluptatum nesciunt culpa doloribus eligendi a. Sapiente cupiditate laborum atque, eos porro adipisci. Cum quaerat at beatae omnis consequuntur inventore ullam recusandae nobis corporis architecto?
+    Ratione debitis cumque eligendi neque fugit animi, dolores culpa praesentium aspernatur nostrum. Necessitatibus ducimus, ratione consectetur, laborum dolor enim magnam quae laudantium quaerat commodi nobis nisi nostrum sequi velit assumenda.
+    Autem, non atque distinctio iusto porro at veniam, voluptatum a dolorum assumenda rerum itaque dolorem reprehenderit optio alias repellat hic adipisci. Voluptatibus doloremque officiis ex, omnis beatae obcaecati ipsa id.
+    Assumenda tenetur aut numquam doloribus nemo, cumque modi quasi dolorum nostrum blanditiis voluptate consequatur laboriosam eaque, fugiat sint omnis ratione, quos consequuntur saepe beatae eum. Ipsum molestiae sunt fugit assumenda.
+    Nostrum perspiciatis quod tempore sit recusandae quo eum eveniet nihil officiis alias consequatur deleniti, nemo ad assumenda, minus pariatur ab inventore deserunt culpa impedit repellat amet facere quas. Ipsam, natus.</p>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
